@@ -1,0 +1,20 @@
+---
+layout: default
+title: Галерея
+---
+
+<section class="content">
+  </section>
+
+  <ul class="entries">
+    {% for gallery in site.categories.gallery %}
+
+    <li>
+      <a href="{{ gallery.url }}">
+        <img src="{{ gallery.image }}" />
+        <h3>{{ gallery.title }}</h3>
+      </a>
+    </li>
+
+    {% endfor %}
+  </ul>

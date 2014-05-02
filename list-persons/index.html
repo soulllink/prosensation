@@ -1,0 +1,13 @@
+---
+layout: default
+title: Преподаватели, тренера, репетиторы, корректоры, логопеды, психологи.
+---
+
+<ul>
+	{% for person in site.categories.person %}
+		<li>
+			<a href="{{person.url}}">{{person.title}}</a>
+			<p>{{person.meta}}</p>
+		</li>
+	{% endfor %}
+</ul>

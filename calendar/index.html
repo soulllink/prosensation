@@ -1,0 +1,12 @@
+---
+layout: default
+title: Календарь
+---
+<ul>
+	{% for calendar in site.categories.calendar %}
+		<li>
+			<a href="{{calendar.url}}">{{calendar.title}}</a>
+			<p>{{calendar.meta}}</p>
+		</li>
+	{% endfor %}
+</ul>

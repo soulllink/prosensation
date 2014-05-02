@@ -1,0 +1,13 @@
+---
+layout: default
+title: Групповые занятия, искусство, досуг, спорт.
+---
+
+<ul>
+	{% for group in site.categories.group %}
+		<li>
+			<a href="{{group.url}}">{{group.title}}</a>
+			<p>{{group.meta}}</p>
+		</li>
+	{% endfor %}
+</ul>

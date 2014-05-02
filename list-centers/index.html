@@ -1,0 +1,13 @@
+---
+layout: default
+title: Центры ведущие занятия для детей и подростков.
+---
+
+<ul>
+	{% for centers in site.categories.centers %}
+		<li>
+			<a href="{{centers.url}}">{{centers.title}}</a>
+			<p>{{centers.meta}}</p>
+		</li>
+	{% endfor %}
+</ul>

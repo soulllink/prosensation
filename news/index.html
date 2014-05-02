@@ -1,0 +1,12 @@
+---
+layout: default
+title: Новости
+---
+<ul>
+	{% for news in site.categories.news %}
+		<li>
+			<a href="{{news.url}}">{{news.title}}</a>
+			<p>{{news.meta}}</p>
+		</li>
+	{% endfor %}
+</ul>
