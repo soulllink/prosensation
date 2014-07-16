@@ -14,6 +14,9 @@
 #container { width: 30em; }
 	
 }
+body, html {
+    background: url(/img/triangular.png);
+}
 .header { height: 4em; }
 #oc { margin-left: 2em; margin-right: 2em; }
 .top { padding-top: 1em; border-bottom: 1px solid black;}
