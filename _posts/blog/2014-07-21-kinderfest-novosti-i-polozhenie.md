@@ -47,3 +47,7 @@ category: blog
     <strong>Участники</strong>
     : Образовательные центры, центры развития, творческие коллективы, а также отдельные исполнители от 3 до 14 лет.
 </p>
+
+<p>Само положение можно скачать <a href="http://prosensation.org/festival-polozhenie_RASSYLKA_2014.doc">тут</a>.</p>
+<p>Так же можете познакомится с нарезкой лучших моментов с фестиваля KINDERFEST2012</p>
+<iframe width="853" height="480" src="//www.youtube.com/embed/nNpAKIpvO4o?rel=0" frameborder="0" allowfullscreen></iframe>
